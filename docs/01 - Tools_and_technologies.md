@@ -42,7 +42,7 @@ IPYwidgets
 
 ·    Installation: https://ipywidgets.readthedocs.io/en/stable/user_install.html
 
-·    Widgets List: [https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html](https://ipywidgets.readthedocs.io/en/stable/examples/Widget List.html)
+·    Widgets List: [https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html](https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html)
 
 
 
