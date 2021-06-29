@@ -6,7 +6,7 @@ Following official sources of documentation provide reference for further explor
 
 ## Tools and technologies
 
-Jupyter Notebooks
+**Jupyter Notebooks**
 
 ·    Documentation: https://jupyter-notebook.readthedocs.io/en/stable/
 
@@ -14,7 +14,7 @@ Jupyter Notebooks
 
  
 
-Pandas
+**Pandas**
 
 ·    Documentation: https://pandas.pydata.org/
 
@@ -26,7 +26,7 @@ Pandas
 
  
 
-Altair
+**Altair**
 
 ·    Documentation: https://altair-viz.github.io/
 
@@ -36,7 +36,7 @@ Altair
 
  
 
-IPYwidgets
+**IPYwidgets**
 
 ·    Documentation: https://ipywidgets.readthedocs.io/en/stable/
 
@@ -48,29 +48,29 @@ IPYwidgets
 
 ## AWS tools and technologies
 
-RDS for PostgreSQL
+**RDS for PostgreSQL**
 
 ·    https://aws.amazon.com/rds/postgresql/
 
-Glue & crawlers
+**Glue & crawlers**
 
 ·    https://docs.aws.amazon.com/glue/index.html
 
 ·    https://docs.aws.amazon.com/glue/latest/dg/crawler-running.html
 
-Athena
+**Athena**
 
 ·    https://aws.amazon.com/athena/features/
 
-S3
+**S3**
 
 ·    https://aws.amazon.com/s3/
 
-EC2
+**EC2**
 
 ·    https://aws.amazon.com/ec2/
 
-SageMaker & Notebooks
+**SageMaker & Notebooks**
 
 ·    https://aws.amazon.com/sagemaker/
 
