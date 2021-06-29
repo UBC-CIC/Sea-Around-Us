@@ -4,7 +4,7 @@ RDS export to S3 creates files in an efficient and compressed parquet format. Bu
 
 ## How?
 
-CSV files of the data can be generated in multiple ways.
+CSV files of the data can be generated in multiple ways.     
 • SQL results from your favorite database tools can be saved as CSV directly. An example screenshot for Postgres using pgAdmin is shown in below screenshot        
 • In AWS, SQL query results from Athena can be exported to CSV if needed       
 • Moreover, CSV is automatically generated when a query is executed in Athena and is stored in the S3 folder given in settings. This CSV file can be renamed or moved to another S3 folder for further analysis on the data. Athena and S3 screenshots provided below        
