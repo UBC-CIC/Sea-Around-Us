@@ -18,7 +18,7 @@ We can use the data in S3 as a database with the help of crawlers. A crawler con
 
 ![Step 3](../images/CRAWLER_step_03.png)
 
-Note:
+Note:     
 • Include Path – point to the S3 folder path where the source data for this crawler is located.      
 • Exclude Patterns – use this if there are files in S3 folder that you do not want to be part of the data.      
 • Add another data store (if needed) in the next step.      
@@ -27,7 +27,7 @@ Note:
 
 ![Step 4](../images/CRAWLER_step_04.png)
 
-Note:
+Note:     
 • This role needs additional permission, refer to the Appendix at the end of this document for an example.
 
 
@@ -68,7 +68,7 @@ Change Frequency as needed.
 
 ## __Appendix__
 
-IAM role for Glue service
+IAM role for Glue service     
 • This IAM role should have permission decrypt using the KMS key used by the RDS export.      
 • Screenshots below – IAM role summary and json examples.       
 
