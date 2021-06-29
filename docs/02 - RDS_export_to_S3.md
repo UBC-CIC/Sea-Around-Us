@@ -9,13 +9,13 @@ to be accessible for Glue crawlers and Athena queries.
 
 
 
-![Step 1](..\images\RDS_step_01.png)
+![Step 1](../images/RDS_step_01.png)
 
 
 
 ## Step 2: Destination, IAM role, Encryption
 
-![Step 2](..\images\RDS_step_02.png)
+![Step 2](../images/RDS_step_02.png)
 
 
 
@@ -23,7 +23,7 @@ to be accessible for Glue crawlers and Athena queries.
 
 > Note: KMS key here is the same one to be used in Glue service role.
 
-![Step 3](..\images\RDS_step_03.png)
+![Step 3](../images/RDS_step_03.png)
 
 
 
@@ -31,4 +31,4 @@ to be accessible for Glue crawlers and Athena queries.
 
 > Crawler can now be setup and data can be accessed via Athena queries.
 
-![Step 4](..\images\RDS_step_04.png)
+![Step 4](../images/RDS_step_04.png)
