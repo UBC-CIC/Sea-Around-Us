@@ -13088,7 +13088,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Uncomment this cell if necessary libraries are not already installed</span>
@@ -13115,7 +13115,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
@@ -13134,7 +13134,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># enable extension for widgets</span>
@@ -13170,7 +13170,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13194,14 +13194,15 @@ Enabling notebook extension jupyter-js-widgets/extension...
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># define bucket location and data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># define CloudFront domain name (to access S3) and data</span>
 
-<span class="n">bucket</span> <span class="o">=</span> <span class="s1">&#39;sea-around-us-open-data&#39;</span>
+<span class="n">cloudfront</span> <span class="o">=</span> <span class="s1">&#39;https://d3cu2src083cxg.cloudfront.net&#39;</span>
 <span class="n">data_key</span> <span class="o">=</span> <span class="s1">&#39;rfmo_query_result.csv&#39;</span>
-<span class="n">data_location</span> <span class="o">=</span> <span class="s1">&#39;s3://</span><span class="si">{}</span><span class="s1">/</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">bucket</span><span class="p">,</span> <span class="n">data_key</span><span class="p">)</span>
+
+<span class="n">data_location</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">/</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cloudfront</span><span class="p">,</span> <span class="n">data_key</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13211,7 +13212,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load select columns</span>
@@ -13235,7 +13236,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13252,7 +13253,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># sample data</span>
@@ -13270,7 +13271,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13346,7 +13347,7 @@ Enabling notebook extension jupyter-js-widgets/extension...
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># dataframe information</span>
@@ -13406,7 +13407,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chart 1 </span>
@@ -13497,7 +13498,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chart 2</span>
@@ -13593,7 +13594,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chart 3</span>
@@ -13685,7 +13686,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chart 4</span>
@@ -13816,7 +13817,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chart 5</span>
@@ -13958,7 +13959,7 @@ memory usage: 54.9+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_chart_1</span><span class="p">()</span>
@@ -13982,13 +13983,13 @@ memory usage: 54.9+ MB
 
  
  
-<div id="2f9fe3cb-d888-49db-b947-7619f6875e49"></div>
+<div id="3a7e5f6b-e896-4d51-a050-bad143f23d69"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#2f9fe3cb-d888-49db-b947-7619f6875e49');
+var element = $('#3a7e5f6b-e896-4d51-a050-bad143f23d69');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "3b68dac837d54c54b41fd53679bce638", "version_major": 2, "version_minor": 0}
+{"model_id": "6d49918daf6348358b60f6c455433b7d", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14004,13 +14005,13 @@ var element = $('#2f9fe3cb-d888-49db-b947-7619f6875e49');
 
  
  
-<div id="d826cb62-6153-4b37-8cda-80a2fde19013"></div>
+<div id="fcad6e0a-5b1c-47c1-88fe-8ff1392b5f36"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#d826cb62-6153-4b37-8cda-80a2fde19013');
+var element = $('#fcad6e0a-5b1c-47c1-88fe-8ff1392b5f36');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "db0023fb410849c18708e5eb2a332c43", "version_major": 2, "version_minor": 0}
+{"model_id": "2becce89b10b4de8bc3d03fe5f021799", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14026,13 +14027,13 @@ var element = $('#d826cb62-6153-4b37-8cda-80a2fde19013');
 
  
  
-<div id="9533aedf-75d2-4a9a-82a2-424ffa0e8bf6"></div>
+<div id="e94b00e8-7d14-4d1c-8b6f-8a5073ade93d"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#9533aedf-75d2-4a9a-82a2-424ffa0e8bf6');
+var element = $('#e94b00e8-7d14-4d1c-8b6f-8a5073ade93d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "ff00c844c5664d2aa8384673cf79d655", "version_major": 2, "version_minor": 0}
+{"model_id": "c5d542b87eb9488cb81d59612314d337", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14040,18 +14041,18 @@ var element = $('#9533aedf-75d2-4a9a-82a2-424ffa0e8bf6');
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-205fbe2fd5b64371b2e975775e8c36eb"></div>
+<div id="altair-viz-a08d54372b1843f9ab031f19897d85aa"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-205fbe2fd5b64371b2e975775e8c36eb") {
-      outputDiv = document.getElementById("altair-viz-205fbe2fd5b64371b2e975775e8c36eb");
+    if (outputDiv.id !== "altair-viz-a08d54372b1843f9ab031f19897d85aa") {
+      outputDiv = document.getElementById("altair-viz-a08d54372b1843f9ab031f19897d85aa");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14112,7 +14113,7 @@ var element = $('#9533aedf-75d2-4a9a-82a2-424ffa0e8bf6');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_chart_2</span><span class="p">()</span>
@@ -14136,13 +14137,13 @@ var element = $('#9533aedf-75d2-4a9a-82a2-424ffa0e8bf6');
 
  
  
-<div id="4706c672-079f-42d0-b990-af10f1a80565"></div>
+<div id="4bba2a45-d0d9-4835-8b21-bb6d4fc69f1d"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#4706c672-079f-42d0-b990-af10f1a80565');
+var element = $('#4bba2a45-d0d9-4835-8b21-bb6d4fc69f1d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "43f845c69c8144e48eb3cb2bf281fee2", "version_major": 2, "version_minor": 0}
+{"model_id": "fc9334cefa9e46bf849e5e0149274840", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14158,13 +14159,13 @@ var element = $('#4706c672-079f-42d0-b990-af10f1a80565');
 
  
  
-<div id="ceee5fa6-50d0-4736-a452-1abf3c810982"></div>
+<div id="83021e27-76f0-40d7-b408-09bd5b60bb28"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#ceee5fa6-50d0-4736-a452-1abf3c810982');
+var element = $('#83021e27-76f0-40d7-b408-09bd5b60bb28');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "78cd3abd3a16422b9f420bbadf7b139e", "version_major": 2, "version_minor": 0}
+{"model_id": "a8fb155ad94a4a8cbf2f1a7091a0641a", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14180,13 +14181,13 @@ var element = $('#ceee5fa6-50d0-4736-a452-1abf3c810982');
 
  
  
-<div id="77ece2c1-f6d2-4fd7-aebf-b7ef938cf2d5"></div>
+<div id="96b15f4a-d8d0-4453-916e-5fc4caa7ca79"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#77ece2c1-f6d2-4fd7-aebf-b7ef938cf2d5');
+var element = $('#96b15f4a-d8d0-4453-916e-5fc4caa7ca79');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "3a1d20221b6f4da9bc22cbcdbe467117", "version_major": 2, "version_minor": 0}
+{"model_id": "170f600fe78b4329a517cf9244277cfd", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14194,18 +14195,18 @@ var element = $('#77ece2c1-f6d2-4fd7-aebf-b7ef938cf2d5');
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-1aad264f2ead452a84ee13a87a6fecf0"></div>
+<div id="altair-viz-baf1716a4a8f4abcb1bc97ea44829095"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-1aad264f2ead452a84ee13a87a6fecf0") {
-      outputDiv = document.getElementById("altair-viz-1aad264f2ead452a84ee13a87a6fecf0");
+    if (outputDiv.id !== "altair-viz-baf1716a4a8f4abcb1bc97ea44829095") {
+      outputDiv = document.getElementById("altair-viz-baf1716a4a8f4abcb1bc97ea44829095");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14266,7 +14267,7 @@ var element = $('#77ece2c1-f6d2-4fd7-aebf-b7ef938cf2d5');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_chart_3</span><span class="p">()</span>
@@ -14290,13 +14291,13 @@ var element = $('#77ece2c1-f6d2-4fd7-aebf-b7ef938cf2d5');
 
  
  
-<div id="78907368-bebd-455f-8428-b7c137ee41a4"></div>
+<div id="b4fc5601-f301-4344-b75c-81f8c3a9e218"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#78907368-bebd-455f-8428-b7c137ee41a4');
+var element = $('#b4fc5601-f301-4344-b75c-81f8c3a9e218');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "47e7eca5132d4aafafce864179ead2be", "version_major": 2, "version_minor": 0}
+{"model_id": "1cedab1b2c8448c88161fe37eb8d5e73", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14312,13 +14313,13 @@ var element = $('#78907368-bebd-455f-8428-b7c137ee41a4');
 
  
  
-<div id="8a2be5ff-4cfe-4948-bf91-e7f927db01e7"></div>
+<div id="9e2f4d8a-5892-45f3-855b-41dec5c90875"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#8a2be5ff-4cfe-4948-bf91-e7f927db01e7');
+var element = $('#9e2f4d8a-5892-45f3-855b-41dec5c90875');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "dcac93d99d194283a921043411c748e2", "version_major": 2, "version_minor": 0}
+{"model_id": "d1459ae979f6494ebb285a10d55eee1b", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14334,13 +14335,13 @@ var element = $('#8a2be5ff-4cfe-4948-bf91-e7f927db01e7');
 
  
  
-<div id="cdc16c6f-6843-4b16-9d69-7ce7b16deb70"></div>
+<div id="f41b7581-e19a-4e97-a517-a24d8efafa3f"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#cdc16c6f-6843-4b16-9d69-7ce7b16deb70');
+var element = $('#f41b7581-e19a-4e97-a517-a24d8efafa3f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "d077448eef90458c8072a05d04075b96", "version_major": 2, "version_minor": 0}
+{"model_id": "a1fb07069fc64ce082ad0e39dde96b8a", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14348,18 +14349,18 @@ var element = $('#cdc16c6f-6843-4b16-9d69-7ce7b16deb70');
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-56c59f1cefba48dfb4aaad3630178cc0"></div>
+<div id="altair-viz-1b2c41dee2504a99803183738057e265"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-56c59f1cefba48dfb4aaad3630178cc0") {
-      outputDiv = document.getElementById("altair-viz-56c59f1cefba48dfb4aaad3630178cc0");
+    if (outputDiv.id !== "altair-viz-1b2c41dee2504a99803183738057e265") {
+      outputDiv = document.getElementById("altair-viz-1b2c41dee2504a99803183738057e265");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14420,7 +14421,7 @@ var element = $('#cdc16c6f-6843-4b16-9d69-7ce7b16deb70');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_chart_4</span><span class="p">()</span>
@@ -14444,13 +14445,13 @@ var element = $('#cdc16c6f-6843-4b16-9d69-7ce7b16deb70');
 
  
  
-<div id="51e7dd13-3ed9-4b3b-82b1-3e8752801a93"></div>
+<div id="a33d9818-15f2-4cd6-ab21-29e0ad2e28f2"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#51e7dd13-3ed9-4b3b-82b1-3e8752801a93');
+var element = $('#a33d9818-15f2-4cd6-ab21-29e0ad2e28f2');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "f66fa0da3abc46818012b6f0e469b169", "version_major": 2, "version_minor": 0}
+{"model_id": "5b83ad078bcb472aa359e3bee907607b", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14466,13 +14467,13 @@ var element = $('#51e7dd13-3ed9-4b3b-82b1-3e8752801a93');
 
  
  
-<div id="a347a804-5975-49a9-b3c1-00bfb81dd163"></div>
+<div id="88b6aa66-6737-4a4f-a4fb-bc77e0d4d2ef"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#a347a804-5975-49a9-b3c1-00bfb81dd163');
+var element = $('#88b6aa66-6737-4a4f-a4fb-bc77e0d4d2ef');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "a2a29b77aa5a4dc5aa45e49043d91714", "version_major": 2, "version_minor": 0}
+{"model_id": "2f7ef4d955f74c6996569f73ece5644f", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14488,13 +14489,13 @@ var element = $('#a347a804-5975-49a9-b3c1-00bfb81dd163');
 
  
  
-<div id="ed7f4ecf-38d9-4115-b6d3-71921905b538"></div>
+<div id="c6082512-ec29-48be-9702-dfd652838d5b"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#ed7f4ecf-38d9-4115-b6d3-71921905b538');
+var element = $('#c6082512-ec29-48be-9702-dfd652838d5b');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "9f379894135d44cb80e88bfbc5d11516", "version_major": 2, "version_minor": 0}
+{"model_id": "0a145423e6ed4c8e8d9be683ffb9fc1f", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14510,13 +14511,13 @@ var element = $('#ed7f4ecf-38d9-4115-b6d3-71921905b538');
 
  
  
-<div id="e012d0a0-f24b-4484-9a12-f82c3ca79fc3"></div>
+<div id="df208737-754a-4211-83b0-3691741ed854"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#e012d0a0-f24b-4484-9a12-f82c3ca79fc3');
+var element = $('#df208737-754a-4211-83b0-3691741ed854');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "68fad8a8f70142908ce00fa6129a8c5e", "version_major": 2, "version_minor": 0}
+{"model_id": "fb75a360558543d792aedd4db933d762", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14524,18 +14525,18 @@ var element = $('#e012d0a0-f24b-4484-9a12-f82c3ca79fc3');
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-e6d43c354e9144a1a8b6151161a75e29"></div>
+<div id="altair-viz-825379bf3bd8461a855e128e49a727b9"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e6d43c354e9144a1a8b6151161a75e29") {
-      outputDiv = document.getElementById("altair-viz-e6d43c354e9144a1a8b6151161a75e29");
+    if (outputDiv.id !== "altair-viz-825379bf3bd8461a855e128e49a727b9") {
+      outputDiv = document.getElementById("altair-viz-825379bf3bd8461a855e128e49a727b9");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14596,7 +14597,7 @@ var element = $('#e012d0a0-f24b-4484-9a12-f82c3ca79fc3');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_chart_5</span><span class="p">()</span>
@@ -14620,13 +14621,13 @@ var element = $('#e012d0a0-f24b-4484-9a12-f82c3ca79fc3');
 
  
  
-<div id="74cb56db-74af-49d7-aec5-46a391c994ea"></div>
+<div id="33167090-6d4c-45d4-8234-ee5a2c51f38e"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#74cb56db-74af-49d7-aec5-46a391c994ea');
+var element = $('#33167090-6d4c-45d4-8234-ee5a2c51f38e');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "54d65583bf2a4999a1d22137c9b9a4d4", "version_major": 2, "version_minor": 0}
+{"model_id": "e8a77eb9db6040429c76bb5a5ded040c", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14642,13 +14643,13 @@ var element = $('#74cb56db-74af-49d7-aec5-46a391c994ea');
 
  
  
-<div id="4d48b417-13f4-410d-990c-a96d5bf463c7"></div>
+<div id="1614980d-d008-4bec-b547-77d53b0a6bc2"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#4d48b417-13f4-410d-990c-a96d5bf463c7');
+var element = $('#1614980d-d008-4bec-b547-77d53b0a6bc2');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "b2fdf4fb702c4267bc80235bf985349b", "version_major": 2, "version_minor": 0}
+{"model_id": "a08f216c1dfb4f0daabc4301ceea7b60", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14664,13 +14665,13 @@ var element = $('#4d48b417-13f4-410d-990c-a96d5bf463c7');
 
  
  
-<div id="96e73043-6601-4cd1-a0a3-96f167757bb9"></div>
+<div id="301421e2-f823-416e-9141-b306fd9de79d"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#96e73043-6601-4cd1-a0a3-96f167757bb9');
+var element = $('#301421e2-f823-416e-9141-b306fd9de79d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "abc67eff8e1b44d6a4c4e1c4482705b3", "version_major": 2, "version_minor": 0}
+{"model_id": "04593ff5d2504b1c9a62fdac2534d5a6", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14686,13 +14687,13 @@ var element = $('#96e73043-6601-4cd1-a0a3-96f167757bb9');
 
  
  
-<div id="f7fd49a5-3991-4767-ba19-1ff7d9654d95"></div>
+<div id="a72f2bea-3380-4217-809f-18ac44fc836e"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#f7fd49a5-3991-4767-ba19-1ff7d9654d95');
+var element = $('#a72f2bea-3380-4217-809f-18ac44fc836e');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "784f70946267466c81e99c57cd3fba60", "version_major": 2, "version_minor": 0}
+{"model_id": "cd19834c9be94c10b92c08d9ecff0263", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14700,18 +14701,18 @@ var element = $('#f7fd49a5-3991-4767-ba19-1ff7d9654d95');
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-c71a4663a4d94b599e079afacddb1045"></div>
+<div id="altair-viz-322f1e152a304711bc01044c4f76a7e1"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-c71a4663a4d94b599e079afacddb1045") {
-      outputDiv = document.getElementById("altair-viz-c71a4663a4d94b599e079afacddb1045");
+    if (outputDiv.id !== "altair-viz-322f1e152a304711bc01044c4f76a7e1") {
+      outputDiv = document.getElementById("altair-viz-322f1e152a304711bc01044c4f76a7e1");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14759,6 +14760,19 @@ var element = $('#f7fd49a5-3991-4767-ba19-1ff7d9654d95');
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 
