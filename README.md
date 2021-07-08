@@ -18,6 +18,31 @@ As seen in the architecture diagram below, the first part of the workflow involv
 
 Documentation for different steps involved in this project is added in individual user guides in the `docs` folder of this repository.
 
+## Example Notebooks
+
+Jupyter notebooks that demonstrate different scenarios related to data analysis, visualizations, and data access are included in the `notebooks` folder of this repository.
+
+## Table of Contents
+
+* __User Guides__
+  * [Access data from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Access data from S3.md)
+  * [Create visualizations in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Create visualizations in notebooks.md)
+  * [Data analysis in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Data analysis in notebooks.md)
+  * [Download data from notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Download data from notebooks.md)
+  * [Tools and technologies](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/01 - Tools_and_technologies.md)
+  * [RDS export to S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/02 - RDS_export_to_S3.md)
+  * [Glue crawler setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/03 - Glue_crawler_setup.md)
+  * [Generate CSV for data analysis](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/04 - Generate_CSV_for_data_analysis.md)
+  * [SageMaker setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/05 - SageMaker_setup.md)
+* __Example Notebooks__
+  * [Access CSV from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/01 - Access_CSV_from_S3.ipynb)
+  * [Query data via Athena](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/02 - Query_data_via_Athena.ipynb)
+  * [Data analysis examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/03 - Data_analysis_examples.ipynb)
+  * [Visualizations examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/04 - Visualizations_examples.ipynb)
+  * [Data analysis, Visualizations, and Download data](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/05 - Data_analysis_Visualizations_Download_data.ipynb)
+
+
+
 ## Deployment Guide
 
 The instructions provided in this repository refer to several tools and libraries for conducting data analysis and creating visualizations. This is a brief overview of the installations for these tools and libraries, please refer to official documentation for in-depth details.
@@ -29,10 +54,6 @@ The instructions provided in this repository refer to several tools and librarie
 **Anaconda** : Instead of installing above tools individually, a popular alternative is to use open source Anaconda Individual Edition distribution that includes Python, R, necessary tools like Jupyter Notebooks, and commonly used packages such as Pandas and NumPy by default as part of it's installation. Refer to `https://www.anaconda.com/products/individual` for further details.
 
 **Additional Packages** : Additional packages necessary for data analysis and visualizations can be installed by referring to the install instructions from official sources. For example, `pandas` library for python can be installed using either `conda install pandas` or `pip install pandas` command as mentioned in `https://pypi.org/project/pandas/`. These packages can also be installed from within the notebooks as highlighted on top in the example notebooks. 
-
-## Example Notebooks
-
-Jupyter notebooks that demonstrate different scenarios related to data analysis, visualizations, and data access are included in the `notebooks` folder of this repository.
 
 ## License
 
