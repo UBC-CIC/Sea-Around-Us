@@ -25,21 +25,22 @@ Jupyter notebooks that demonstrate different scenarios related to data analysis,
 ## Table of Contents
 
 * __User Guides__
-  * [Access data from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Access data from S3.md)
-  * [Create visualizations in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Create visualizations in notebooks.md)
-  * [Data analysis in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Data analysis in notebooks.md)
-  * [Download data from notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00 - Download data from notebooks.md)
-  * [Tools and technologies](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/01 - Tools_and_technologies.md)
-  * [RDS export to S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/02 - RDS_export_to_S3.md)
-  * [Glue crawler setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/03 - Glue_crawler_setup.md)
-  * [Generate CSV for data analysis](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/04 - Generate_CSV_for_data_analysis.md)
-  * [SageMaker setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/05 - SageMaker_setup.md)
+  * [Access data from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00%20-%20Access%20data%20from%20S3.md)
+  * [Create visualizations in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00%20-%20Create%20visualizations%20in%20notebooks.md)
+  * [Data analysis in notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00%20-%20Data%20analysis%20in%20notebooks.md)
+  * [Download data from notebooks](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/00%20-%20Download%20data%20from%20notebooks.md)
+  * [Tools and technologies](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/01%20-%20Tools_and_technologies.md)
+  * [RDS export to S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/02%20-%20RDS_export_to_S3.md)
+  * [Glue crawler setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/03%20-%20Glue_crawler_setup.md)
+  * [Generate CSV for data analysis](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/04%20-%20Generate_CSV_for_data_analysis.md)
+  * [SageMaker setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/05%20-%20SageMaker_setup.md)
 * __Example Notebooks__
-  * [Access CSV from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/01 - Access_CSV_from_S3.ipynb)
-  * [Query data via Athena](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/02 - Query_data_via_Athena.ipynb)
-  * [Data analysis examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/03 - Data_analysis_examples.ipynb)
-  * [Visualizations examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/04 - Visualizations_examples.ipynb)
-  * [Data analysis, Visualizations, and Download data](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/05 - Data_analysis_Visualizations_Download_data.ipynb)
+  * [README](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/README.md)
+  * [Access CSV from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/01%20-%20Access_CSV_from_S3.ipynb)
+  * [Query data via Athena](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/02%20-%20Query_data_via_Athena.ipynb)
+  * [Data analysis examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/03%20-%20Data_analysis_examples.ipynb)
+  * [Visualizations examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/04%20-%20Visualizations_examples.ipynb)
+  * [Data analysis, Visualizations, and Download data](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/05%20-%20Data_analysis_Visualizations_Download_data.ipynb)
 
 
 
