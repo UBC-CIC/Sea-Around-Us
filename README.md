@@ -34,6 +34,7 @@ Jupyter notebooks that demonstrate different scenarios related to data analysis,
   * [Glue crawler setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/03%20-%20Glue_crawler_setup.md)
   * [Generate CSV for data analysis](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/04%20-%20Generate_CSV_for_data_analysis.md)
   * [SageMaker setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/05%20-%20SageMaker_setup.md)
+  * [CloudFront setup](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/docs/06%20-%20CloudFront_setup.md)
 * __Example Notebooks__
   * [README](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/README.md)
   * [Access CSV from S3](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/01%20-%20Access_CSV_from_S3.ipynb)
