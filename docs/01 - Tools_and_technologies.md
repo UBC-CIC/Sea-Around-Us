@@ -76,3 +76,13 @@ Following official sources of documentation provide reference for further explor
 
 ·    https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html
 
+**CloudFront**
+
+·    https://aws.amazon.com/cloudfront/
+
+·    https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-creating.html
+
+·    https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html
+
+
+
