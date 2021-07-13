@@ -80,6 +80,8 @@ Following official sources of documentation provide reference for further explor
 
 ·    https://aws.amazon.com/cloudfront/
 
+·    https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-access-to-amazon-s3/
+
 ·    https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-creating.html
 
 ·    https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html
