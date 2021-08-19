@@ -42,12 +42,9 @@ Jupyter notebooks that demonstrate different scenarios related to data analysis,
   * [Data analysis examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/03%20-%20Data_analysis_examples.ipynb)
   * [Visualizations examples](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/04%20-%20Visualizations_examples.ipynb)
   * [Data analysis, Visualizations, and Download data](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/notebooks/05%20-%20Data_analysis_Visualizations_Download_data.ipynb)
-
-- __Data Dictionary__
-
-  - [Data dictionary](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/data-dictionary/Data_dictionary.md)
-
-  - [Appendices](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/data-dictionary/Appendices.md)
+* __Data Dictionary__
+  * [Data dictionary](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/data-dictionary/Data_dictionary.md)
+  * [Appendices](https://github.com/UBC-CIC/Sea-Around-Us/blob/main/data-dictionary/Appendices.md)
 
     
 
