@@ -76,13 +76,13 @@ Taxa: A taxon (plural taxa) is a taxonomic group of species at any level as part
 
 
 
-(1)	Retired taxon are kept to be able to check the past data.
-(2)	Some catches of these species are mistakenly reported with catch fishery statistics. This flag reminds the reconstruction team that these catches must not be included.
-(3)	The depth range is computed for supraspefic taxa (genus, family, and above, as the minimum of minima and maximum of maxima of the depth range of the species included in the taxon.
-(4)	CAUTION: for the pelagic taxa, the value is set as 9999 for the algorithm computing the distribution of the species. Refer to FishBase and SeaLifeBase to get the real value (also in field true_max_depth).
-(5)	Von Bertalanffy Growth Function (VGBF): Lt = Linf * (1 - exp(-K(t-t0)); t: age; Lt: Length at age t; Linf: asymptotic length (length at infinite age); K: growth coefficient; t0 is the theoretical age when lenght is zero.
-(6)	LWR: Length-weight relationship: W = a*L^b; W: Weight; L: Length.
-(7)	Used in the allocation process.
-(8)	Missing ranks are replaced by NA. This field has the type ltree in PostgreSQL and is use for recursive queries to compute the catch for a taxon, including all the children of the taxon.
-(9)	For species only.
+(1)	Retired taxon are kept to be able to check the past data.      
+(2)	Some catches of these species are mistakenly reported with catch fishery statistics. This flag reminds the reconstruction team that these catches must not be included.      
+(3)	The depth range is computed for supraspefic taxa (genus, family, and above, as the minimum of minima and maximum of maxima of the depth range of the species included in the taxon.      
+(4)	CAUTION: for the pelagic taxa, the value is set as 9999 for the algorithm computing the distribution of the species. Refer to FishBase and SeaLifeBase to get the real value (also in field true_max_depth).     
+(5)	Von Bertalanffy Growth Function (VGBF): Lt = Linf * (1 - exp(-K(t-t0)); t: age; Lt: Length at age t; Linf: asymptotic length (length at infinite age); K: growth coefficient; t0 is the theoretical age when lenght is zero.     
+(6)	LWR: Length-weight relationship: W = a*L^b; W: Weight; L: Length.     
+(7)	Used in the allocation process.     
+(8)	Missing ranks are replaced by NA. This field has the type ltree in PostgreSQL and is use for recursive queries to compute the catch for a taxon, including all the children of the taxon.     
+(9)	For species only.      
 
