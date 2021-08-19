@@ -37,7 +37,7 @@ Marine layers: Geographic area systems: fishing areas, administrative areas, bio
 
 
 
-(1)	Whole Exclusive Economic Zone of one country is split according to the different oceanic facades. For example, the total EEZ of Canada is here divided in 3, Pacific, Arctic, Atlantic, which usually correspond to the FAO areas.
-(2)	All ocean that is not covered by an EEZ.
-(3)	FAO: the Food and Agriculture Organization of the United Nations has defined large areas for catch statistics reporting by countries.
+(1)	Whole Exclusive Economic Zone of one country is split according to the different oceanic facades. For example, the total EEZ of Canada is here divided in 3, Pacific, Arctic, Atlantic, which usually correspond to the FAO areas.     
+(2)	All ocean that is not covered by an EEZ.     
+(3)	FAO: the Food and Agriculture Organization of the United Nations has defined large areas for catch statistics reporting by countries.     
 
