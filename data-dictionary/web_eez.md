@@ -35,11 +35,11 @@ EEZ: Exclusive Economic Zone; defined by the UN Law of the Sea (UNCLOS), cover t
 
 
 
-(1)	Countries (not EEZ!) in FishBase mean territories: country, country mainland, oversea territories, islands. This list has been established by FishBase.
-(2)	OHI: Ocean Health Index at http://www.oceanhealthindex.org/
-(3)	GSI: Global Slavery Index at https://www.globalslaveryindex.org/
-(4)	ISSF: Information System on Small-scale Fisheries at https://issfcloud.toobigtoignore.net/
-(5)	HDI: Human Development Index at http://hdr.undp.org/
+(1)	Countries (not EEZ!) in FishBase mean territories: country, country mainland, oversea territories, islands. This list has been established by FishBase.     
+(2)	OHI: Ocean Health Index at http://www.oceanhealthindex.org/     
+(3)	GSI: Global Slavery Index at https://www.globalslaveryindex.org/     
+(4)	ISSF: Information System on Small-scale Fisheries at https://issfcloud.toobigtoignore.net/     
+(5)	HDI: Human Development Index at http://hdr.undp.org/     
 
 
 
