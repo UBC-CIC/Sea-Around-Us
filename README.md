@@ -14,6 +14,27 @@ The solution enables researchers and analysts to perform data analysis or create
 
 ![Architecture diagram](images/Architecture_Diagram.png)
 
+## User Interface
+
+### Data analysis example
+
+![Data Analysis example](images/Data_analysis_example_1.png)
+
+### Data Visualization example 1
+
+![Data Visualizations example](images/chart_example_2.png)
+
+### Data Visualization example 2
+
+![Data Visualizations example](images/chart_example_4.png)
+
+### Data Visualization example 3
+
+![Data Visualizations example](images/chart_example_3.png)
+
+### Data Visualization example 4
+
+![Data Visualizations example](images/chart_example_5.png)
 
 
 ## User Guides
